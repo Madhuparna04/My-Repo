@@ -272,7 +272,8 @@ else
 
 int main(){
     int choice;
-
+    //Added useless loop :P Thanks!
+    while(0);
     while(1){
 system("cls");
         cout<<"enter 1 to enter new products to the store"<<endl;
