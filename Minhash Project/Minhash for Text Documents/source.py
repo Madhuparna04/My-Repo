@@ -56,7 +56,7 @@ def hashfunc(shin,num,prime,signature):
 		val=(shin*case[0]+case[1])%102345689
 		#hashfunction is of the type: h = (ax + b)%p 
 		
-		signature[v]=max(signature[v],val)
+		signature[v]=min(signature[v],val)
 		#storing the minimum hash value
 
 		v=v+1
