@@ -56,7 +56,7 @@ def hashfunc(shin,num,prime,signature):
 		val=(shin*case[0]+case[1])%102345689
 		#hashfunction is of the type: h = (ax + b)%p 
 		
-		signature[v]=max(signature[v],val)
+		signature[v]=min(signature[v],val)
 		#storing the minimum hash value
 
 		v=v+1
@@ -166,6 +166,8 @@ def main():
 	fp=max(len(estlist)-tp,0)
 	fn=max(len(brutelist)-tp,0)
 	print(fp,"\n")
+	print("False negatives: ",end=" ")
+	print(fn,"\n")
 	precision=tp/(tp+fp)
 	recall=tp/(tp+fn)
 	score=2*(precision*recall)
