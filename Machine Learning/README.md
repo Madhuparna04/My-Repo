@@ -3,6 +3,8 @@ The algorithms included are -
 
 1. Folder: Q-learning - Containing code corresponding to Q-learning algorithm.
 
+   Folder: Principal Component Analysis - Contains code for PCA algorithm implemented from scratch using Power Iteration and QR-decomposition for finding eigenvectors and eigenvalues.
+
 2. Various Classification Algorithms using sklearn.
 
 3. Digit Recogniser using Keras framework.
