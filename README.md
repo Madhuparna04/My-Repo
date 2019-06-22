@@ -8,5 +8,5 @@ This is a repository that contains all my projects that include the following to
 
 4)Codes related to Networking
 
-5)Project on Minhash Data Structures
+5)Project on Minhash Data Structure
 
