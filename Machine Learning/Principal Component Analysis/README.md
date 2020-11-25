@@ -1,4 +1,4 @@
-This Project contents implementation of Principal Component Analysis Algorithm from scratch in python.
+This Project contains implementation of Principal Component Analysis Algorithm from scratch in python.
 
 The contributors to this project are - Madhuparna, Arpitha, Aniketh and Saurabh Agarwala.
 
@@ -8,7 +8,7 @@ This project uses two different algorithms to find the eigenvalues and eigenvect
 
 	a)	Power Iteration method finds the eigenvector corresponding to the largest(magnitude) eigenvalue of a matrix.
 
-	b)  From the largest eigenvector the eigenvalue can be calculated using  Rayleigh quotient.
+	b)  	From the largest eigenvector the eigenvalue can be calculated using  Rayleigh quotient.
 
 	c)	By finding a matrix B with same eigenvalues as A except the largest eigenvalue of A being zero by using Wielandt’s Deflation the algorithm can be further used to find second largest, third largest and so on all the eigenvalues of a matrix.
 
@@ -29,7 +29,7 @@ This project uses two different algorithms to find the eigenvalues and eigenvect
 
 	f) Select two columns of this matrix as the Principal Components for the given matrix to reduce it to a dimension of 2.
 
-The codes are available jupyter notebook format and can be used with Google Colab.
+The codes are available in jupyter notebook format and can be used with Google Colab.
 
 
 
